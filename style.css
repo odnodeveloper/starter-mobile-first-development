@@ -28,15 +28,33 @@ main p {
   margin-top: 0;
 }
 
+.bg-primary {
+  background-color: #775f47;
+}
+
 .item img {
   width: 100%
 }
+
+/* Groups & Items (Mobile-first) */
 
 .group {
  display: flex;
  flex-direction: column;
  margin-bottom: 100px;
 }
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Groups and Items (Desktop) */
 
 @media all and (min-width: 800px) {
   section,
